@@ -7,7 +7,7 @@ using WebTodoList.Process;
 namespace WebTodoList.Controllers
 {
     [Route("api/todos")]
-    
+    [ApiController]
     public class TodoController: ControllerBase
     {
         private readonly ITodoProcess process;
